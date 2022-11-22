@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="fonction.js"></script>
+    <title>Document</title>
+    <style type="text/css">
+        .main{
+            width: 70%;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:bisque;
+        }
+
+        section{
+            width: 65%;
+            background-color: antiquewhite;
+            border: solid 2px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        section, .main{
+            padding: 5px;
+            box-sizing: content-box;
+            border-radius: 5px;
+        }
+
+        .go{
+            text-align: center;
+            color: lightblue;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 id="top" >Basic Geometry</h1>
+        <p> In this section, we are going to find the Area of some two-dimension
+            shapes</p>
+        <p>You can click on any shape below:</p>
+        <ul>
+            <li><a href="#circle">Circle</a></li>
+            <li><a href="#triangle">Triangle</a></li>
+            <li><a href="#square">Square</a></li>
+            <li><a href="#rectangle">Rectangle</a></li>
+        </ul>
+
+        <section id="circle">
+            <h2>Circle Area</h2>
+            <div>
+                <label for="radius">Enter the value of the circle's radius:</label>
+                <input type="text" id="radius">
+            </div>
+    
+            <div>
+                <label for="circle-area">Result:</label>
+                <input type="text" id="circle-area" readonly>
+                <hr>
+                <button onclick="circleArea()">Calculate</button>
+            </div>
+    
+            
+        </section>
+
+        <div class="go">
+            <a href="#top">Go to top</a>
+        </div>
+    
+        <section id="triangle">
+            <h2> Triangle Area</h2>
+            <div>
+                <label for="base">Enter the value of the triangle's base:</label>
+                <input type="text" id="base">
+                <br>
+                <label for="vertical_height">Enter the value of the triangle's height:</label>
+                <input type="text" id="vertical">
+            </div>
+
+            <div>
+                <label for="triangle_area">Result :</label>
+                <input type="text" id="triangle-area" readonly>
+            </div>
+            <hr>
+            <button onclick="triangleArea()"> Calculate</button>
+    
+            
+        </section>
+
+        <div class="go">
+            <a href="#top">Go to top</a>
+        </div>
+    
+        <section id="square">
+            <h2>Square Area</h2>
+            <div>
+                <label for="sq_side">Enter the value of the square's side:</label>
+                <input type="text" id="sq_side">
+            </div>
+    
+            <div>
+                <label for="square-area">Result:</label>
+                <input type="text" id="square-area" readonly>
+                <hr>
+                <button onclick="squareArea()">Calculate</button>
+            </div>
+    
+        </section>
+
+        <div class="go">
+            <a href="#top">Go to top</a>
+        </div>
+    
+        <section id="rectangle">
+            <h2>Rectangle Area</h2>
+            <div>
+                <label for="width">Enter the value of the rectangle's width:</label>
+                <input type="text" id="width">
+                <br><label for="height">Enter the value of the rectangle's height:</label>
+                <input type="text" id="height">
+            </div>
+    
+            <div>
+                <label for="rectangle-area">Result:</label>
+                <input type="text" id="rectangle-area" readonly>
+                <hr>
+                <button onclick="rectangleArea()">Calculate</button>
+            </div>
+    
+            
+        </section>
+
+        <div class="go">
+            <a href="#top">Go to top</a>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        //Js
+
+
+
+    </script>
+</body>
+</html>
